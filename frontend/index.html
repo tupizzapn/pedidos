@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tupizza - Gestión de Pedidos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Gestión de Pizzas y Toppings</h1>
+
+    <!-- Sección para gestionar Pizzas -->
+    <section>
+        <h2>Pizzas</h2>
+        <form id="pizzaForm">
+            <input type="text" id="pizzaName" placeholder="Nombre de la pizza" required>
+            <input type="number" id="pizzaPrice" placeholder="Precio" required>
+            <button type="submit">Agregar Pizza</button>
+        </form>
+        <ul id="pizzaList"></ul>
+    </section>
+
+    <!-- Sección para gestionar Toppings -->
+    <section>
+        <h2>Toppings</h2>
+        <form id="toppingForm">
+            <input type="text" id="toppingName" placeholder="Nombre del topping" required>
+            <input type="number" id="toppingPrice" placeholder="Precio" required>
+            <button type="submit">Agregar Topping</button>
+        </form>
+        <ul id="toppingList"></ul>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
